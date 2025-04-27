@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>লগইন ফর্ম</title>
+    <link rel="stylesheet" href="style.css">
+ </head>
+ <body>
+
+    <div class="login-container">
+        <h2>লগইন করুন</h2>
+        <form id="loginForm">
+            <div class="input-group">
+                <label for="username">ইউজারনেম:</label>
+                <input type="text" id="username" placeholder="ইউজারনেম লিখুন" required>
+            </div>
+            <div class="input-group">
+                <label for="password">পাসওয়ার্ড:</label>
+                <input type="password" id="password" placeholder="পাসওয়ার্ড লিখুন" required>
+            </div>
+            <button type="submit">লগইন</button>
+            <p id="error-message"></p>
+        </form>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
